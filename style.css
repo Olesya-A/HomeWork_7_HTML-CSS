@@ -45,6 +45,7 @@ a{
 
 .top-brand{
     padding-left: 63px;
+    padding-right: ;
     padding-top: 290px;
     padding-bottom: 381px;
     display: flex;
@@ -75,8 +76,8 @@ a{
 }
 
 .upper-sections{
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sect-img{
@@ -115,8 +116,6 @@ justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-
 }
 
 .item{
@@ -178,9 +177,10 @@ justify-content: space-between;
     border: 2px solid #FF6A6A;
 }
 
-@media screen and (max-width:768px){
+@media (max-width:1024px) and (min-width:768px){
     .center{
-        padding: 0 2%;
+        padding-left: calc(50% - 368px);
+        padding-right: calc(50% - 368px);
     }
 
     .logo-search{
@@ -193,10 +193,12 @@ justify-content: space-between;
 
     .top-content{
         max-height: 368px;
+        justify-content: center;
     }
 
     .top-pic-img{
         max-height: 368px;
+        max-width: 386px;
     }
 
     .top-brand{
