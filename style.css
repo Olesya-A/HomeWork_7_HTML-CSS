@@ -36,19 +36,20 @@ a{
 .top-content{
     background-color: #F1E4E6;
     display: flex;
+    max-height: 764px;
+}
+
+.top-pic{
+    width: 49%;
 }
 
 .top-brand{
-    margin-left: 63px;
-    margin-top: 290px;
-    margin-bottom: 381px;
+    padding-left: 63px;
+    padding-top: 290px;
+    padding-bottom: 381px;
     display: flex;
     align-items: center;
-}
-
-.brand-group{
-    margin-left: 16px;
-
+    gap: 16px;
 }
 
 .title{
@@ -190,14 +191,18 @@ justify-content: space-between;
         padding-right: 32px;
     }
 
+    .top-content{
+        max-height: 368px;
+    }
+
     .top-pic-img{
         max-height: 368px;
     }
 
     .top-brand{
-        margin-left: 39px;
-        margin-top: 137px;
-        margin-bottom: 138px;
+        padding-left: 39px;
+        padding-top: 137px;
+        padding-bottom: 138px;
     }
 
     .title{
